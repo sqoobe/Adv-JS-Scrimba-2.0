@@ -47,8 +47,8 @@ const product = {
     sku: 'w234fg',
     stock: 276,
     getProductInfo: function() {
-        console.log(this)
-        // console.log(`Stock level for ${this.name} (SKU: ${this.sku}): ${this.stock}`)
+        //console.log(this)
+        console.log(`Stock level for ${this.name} (SKU: ${this.sku}): ${this.stock}`)
     }
 }
 // product.getProductInfo()
